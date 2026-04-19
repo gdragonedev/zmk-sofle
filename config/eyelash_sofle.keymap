@@ -85,11 +85,11 @@
 
         Base {
             bindings = <
-&kp MINUS   &kp N1    &kp N2       &kp N3       &kp N4       &kp N5         &kp UP_ARROW     &kp N6       &kp N7    &kp N8     &kp N9    &kp N0      &kp EQUAL
-&kp TAB     &kp Q     &kp W        &kp E        &kp R        &kp T          &kp DOWN_ARROW   &kp Y        &kp U     &kp I      &kp O     &kp P       &kp BSLH
-&kp ESC     &kp A     &kp S        &kp D        &kp F        &kp G          &kp LEFT_ARROW   &kp H        &kp J     &kp K      &kp L     &kp COMMA   &kp FSLH
-&kp LSHFT   &kp Z     &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &kp B          &kp RIGHT_ARROW  &kp N        &kp M     &kp APOS   &kp SEMI  &kp DOT     &kp RSHFT
-&kp C_MUTE  &kp LALT  &kp LGUI     &kp LCTRL    &kp SPACE    &lt 1 PG_DN    &kp ENTER        &lt 2 PG_UP  &kp BSPC  &kp K_APP  &kp RGUI  &kp DELETE
+&kp MINUS   &kp N1    &kp N2       &kp N3       &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7    &kp N8     &kp N9    &kp N0      &kp EQUAL
+&kp TAB     &kp Q     &kp W        &kp E        &kp R        &kp T        &kp DOWN_ARROW   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp BSLH
+&kp ESC     &kp A     &kp S        &kp D        &kp F        &kp G        &kp LEFT_ARROW   &kp H      &kp J     &kp K      &kp L     &kp COMMA   &kp FSLH
+&kp LSHFT   &kp Z     &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &kp B        &kp RIGHT_ARROW  &kp N      &kp M     &kp APOS   &kp SEMI  &kp DOT     &kp RSHFT
+&kp C_MUTE  &kp LALT  &kp LGUI     &kp LCTRL    &kp SPACE    &lt 1 RET    &kp ENTER        &lt 2 RET  &kp BSPC  &kp K_APP  &kp RGUI  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -99,11 +99,11 @@
 
         Low {
             bindings = <
-&kp F12     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
-&kp GRAVE   &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &CTV               &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &trans           &trans          &trans           &mkp MB4         &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &trans     &trans            &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp F12     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9  &kp F10  &kp F11
+&kp GRAVE   &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &CTV               &mmv MOVE_DOWN   &trans           &trans           &trans      &trans  &trans   &trans
+&trans      &trans           &trans          &trans           &mkp MB4         &mkp MB5           &mmv MOVE_LEFT   &trans           &trans           &trans      &trans  &trans   &trans
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &trans  &trans   &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans  &trans
             >;
 
             display-name = "layer1";
@@ -113,11 +113,11 @@
 
         Rai {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PG_UP  &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &kp PG_DN  &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &kp HOME   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &sys_reset    &trans          &bootloader   &trans        &trans          &kp END    &trans    &trans    &trans  &trans     &trans  &tog 3
-&trans  &trans        &trans          &trans        &trans        &trans          &mkp LCLK  &trans    &trans    &trans  &trans     &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PG_UP  &trans    &trans     &trans     &trans     &trans  &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &kp PG_DN  &trans    &trans     &trans     &trans     &trans  &trans
+&trans  &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &kp HOME   &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&trans  &sys_reset    &trans          &bootloader   &trans        &trans          &kp END    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &tog 3
+&trans  &trans        &trans          &trans        &trans        &trans          &mkp LCLK  &trans    &trans     &trans     &trans     &trans
             >;
 
             display-name = "layer2";
