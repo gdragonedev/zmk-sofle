@@ -29,15 +29,15 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:keyboard-esc$$
   - A
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - D
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - K
-  - L
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ',', s: <}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
@@ -224,15 +224,15 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - N
-  - R
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - T
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - Y
-  - H
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - A
-  - E
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
   - I
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
